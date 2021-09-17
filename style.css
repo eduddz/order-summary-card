@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.box {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 1px black;
+}
+
+.box img {
+    border-radius: 20px 20px 0 0;
+}
+
+h1 {
+    margin: 30px 0 15px;
+    font-weight: 900;
+}
+
+.box > p {
+    margin: 0 30px;
+    line-height: 1.6rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(225, 100%, 98%);
+    margin: 20px 30px;
+    padding: 10px 5px;
+    border-radius: 10px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card img {
+    background-color: hsl(225, 100%, 98%);
+    margin-right: 20px;
+}
+
+.text p {
+    text-align: left;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button {
+    margin: 10px 30px;
+    padding: 15px 0;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px hsl(245, 75%, 52%);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.not-color {
+    background-color: transparent;
+    box-shadow: none;
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+    bottom: 20px;
+    position: absolute;
+}
